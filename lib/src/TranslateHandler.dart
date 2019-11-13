@@ -136,8 +136,9 @@ class TranslateHandler {
       String targetLanguage = _targetLanguage != TranslateLanguages.zh_TW ? describeEnum(_targetLanguage) : "zh-TW";
 
 
-      var text = utf8.encode(_text);
+//      var text = utf8.encode(_text);
 
+      var text = _text;
       String response ,
           autoLanguage = sourceLanguage;
 
