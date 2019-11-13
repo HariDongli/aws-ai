@@ -23,7 +23,8 @@ enum TranslateLanguages {
   pt,     //Portuguese (pt)
   ru,     //Russian (ru)
   es,     //Spanish (es)
-  tr      //Turkish (tr)
+  tr,      //Turkish (tr)
+  hi,      //Hindi
 }
 
 class TranslateHandler {
